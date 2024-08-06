@@ -1,4 +1,4 @@
-#inlcude "program.h"
+#include "program.h"
 void viewVehicleDetails() {
     FILE *file = fopen(VEHICLE_DETAILS_FILENAME, "r");
     if (file == NULL) {
