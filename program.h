@@ -1,5 +1,5 @@
-#ifndef PROGRAM_H
-#define PROGRAM_H
+#ifndef PARKING_SLOT_H_INCLUDED
+#define PARKING_SLOT_H_INCLUDED
 
 #include <stdio.h>
 #include <stdbool.h>
