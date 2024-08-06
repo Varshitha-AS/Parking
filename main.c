@@ -1,7 +1,7 @@
 #include "program.h"
 #include "availableslot.c"
 #include "formatetime.c"
-#include "genarateslip.c"
+#include "generateslip.c"
 #include "parkinglot.c"
 #include "parkinslot.c"
 #include "printtime.c"
