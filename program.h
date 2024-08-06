@@ -34,8 +34,8 @@ time_t two_wheeler_entry_time[MAX_TWO_WHEELER_SLOTS];
 time_t four_wheeler_entry_time[MAX_FOUR_WHEELER_SLOTS];
 char two_wheeler_registration[MAX_TWO_WHEELER_SLOTS][20];
 char four_wheeler_registration[MAX_FOUR_WHEELER_SLOTS][20];
-extern int total_amount_collected_two_wheelers = 0;
-extern int total_amount_collected_four_wheelers = 0;
-extern int total_amount_collected = 0;
+int total_amount_collected_two_wheelers = 0;
+int total_amount_collected_four_wheelers = 0;
+int total_amount_collected = 0;
 
 #endif
