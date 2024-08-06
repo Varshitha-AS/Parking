@@ -1,18 +1,16 @@
-#include <stdio.h>
-#include <stdbool.h>
-#include <stdlib.h>
-#include <string.h>
-#include <time.h>
+#include "program.h"
+#include "availableslot.c"
+#include "formatetime.c"
+#include "grnarateslip.c"
+#include "parkinglot.c"
+#include "parkinslot.c"
+#include "printtime.c"
+#include "summaryrepoart.c"
+#include "time.c"
+#include "unpark.c"
+#include "vehicledetail.c"
+#include "viewvehicle.c"
 
-
-
-#define MAX_TWO_WHEELER_SLOTS 30
-#define MAX_FOUR_WHEELER_SLOTS 20
-#define TWO_WHEELER_DAILY_FEE 10
-#define FOUR_WHEELER_DAILY_FEE 30
-#define VEHICLE_DETAILS_FILENAME "vehicle_details.txt"
-#define SLIP_FILENAME "parking_slip.txt"
-#define SUMMARY_REPORT_FILENAME "summary_report.txt"
 
 int main() {
     int option;
