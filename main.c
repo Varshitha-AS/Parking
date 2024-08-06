@@ -3,6 +3,8 @@
 #include <stdlib.h>
 #include <string.h>
 #include <time.h>
+#include "parking.h"
+
 
 #define MAX_TWO_WHEELER_SLOTS 30
 #define MAX_FOUR_WHEELER_SLOTS 20
